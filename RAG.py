@@ -6,7 +6,6 @@ from langchain_community.embeddings import OllamaEmbeddings
 import ollama
 import re
 
-
 def process_pdf(pdf_bytes):
     """
     处理PDF文件并创建向量存储
